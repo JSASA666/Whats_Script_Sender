@@ -26,7 +26,7 @@ WhatsApp Web updates its code frequently. If the script stops working, it's like
   main.querySelector(`button[aria-label='Send']`) || main.querySelector(`[data-icon="wds-ic-send-filled"]`)
   ```
 
-##What to Do If It Breaks
+## What to Do If It Breaks
 1. Right-click the "Send" button in WhatsApp Web.
 
 2. Click Inspect.
@@ -35,7 +35,7 @@ WhatsApp Web updates its code frequently. If the script stops working, it's like
 
 4. Replace the selector line in the script with the new values.
 
-##How to Use This Script
+## How to Use This Script
 Open WhatsApp Web in your browser and select a chat.
 
 1. Press F12 or Ctrl + Shift + I (Windows/Linux) or Cmd + Option + I (Mac) to open Developer Tools.
@@ -56,10 +56,10 @@ Open WhatsApp Web in your browser and select a chat.
 
 ✅ The script will automatically start sending the text line by line into the conversation.
 
-##NOTE
+## NOTE
 You can modify how fast the script sends each message. The default delay is 250 milliseconds.
-FIND:
+#### FIND:
 ```
 await new Promise(resolve => setTimeout(resolve, 250));
 ```
-And there you go! Enjoy.
+And there you go! Enjoy😄.
