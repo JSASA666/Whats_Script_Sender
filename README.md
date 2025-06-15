@@ -28,17 +28,6 @@ WhatsApp Web updates its code frequently. If the script stops working, it's like
   ```
 --- 
 
-## What to Do If It Breaks
-1. Right-click the "Send" button in WhatsApp Web.
-
-2. Click Inspect.
-
-3. Look for the updated aria-label, data-icon, or similar attributes.
-
-4. Replace the selector line in the script with the new values.
-
----
-
 ## How to Use This Script
 Open WhatsApp Web in your browser and select a chat.
 
@@ -50,7 +39,7 @@ Open WhatsApp Web in your browser and select a chat.
 
 4. Open the script.js file.
 
-5. On this repository *click* the *"Raw"* button to view it in plain text.
+5. On this repository, clic/open ***Movie_Script.js*** click the *"Raw"* button to view it in plain text.
 
 6. Copy the entire script.
 
@@ -60,6 +49,16 @@ Open WhatsApp Web in your browser and select a chat.
    
 ### The script will automatically start sending the text line by line into the conversation.
 --- 
+## What to Do If It Breaks
+1. Right-click the "Send" button in WhatsApp Web.
+
+2. Click Inspect.
+
+3. Look for the updated aria-label, data-icon, or similar attributes.
+
+4. Replace the selector line in the script with the new values.
+
+---
 ## NOTE
 You can modify how fast the script sends each message. The default delay is 250 milliseconds.
 #### FIND:
