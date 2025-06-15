@@ -1,5 +1,6 @@
 # Whats_Script_Sender
-Whatsapp Script sender for scammers or just for fun
+### Whatsapp Script sender for scammers or just for fun
+#### **⚠️You may be banned by Whatsapp when doing this, do it under your responsability**
 
 # 🎥 WhatsApp Web Script Sender – Automatically Send Movie Scripts
 
@@ -25,6 +26,7 @@ WhatsApp Web updates its code frequently. If the script stops working, it's like
   ```
   main.querySelector(`button[aria-label='Send']`) || main.querySelector(`[data-icon="wds-ic-send-filled"]`)
   ```
+--- 
 
 ## What to Do If It Breaks
 1. Right-click the "Send" button in WhatsApp Web.
@@ -34,6 +36,8 @@ WhatsApp Web updates its code frequently. If the script stops working, it's like
 3. Look for the updated aria-label, data-icon, or similar attributes.
 
 4. Replace the selector line in the script with the new values.
+
+---
 
 ## How to Use This Script
 Open WhatsApp Web in your browser and select a chat.
@@ -46,16 +50,16 @@ Open WhatsApp Web in your browser and select a chat.
 
 4. Open the script.js file.
 
-5. Click the "Raw" button to view it in plain text.
+5. On this repository *click* the *"Raw"* button to view it in plain text.
 
 6. Copy the entire script.
 
 7. Paste it into the console (F+12 and find the console).
 
 8. Press Enter.
-
-✅ The script will automatically start sending the text line by line into the conversation.
-
+   
+### The script will automatically start sending the text line by line into the conversation.
+--- 
 ## NOTE
 You can modify how fast the script sends each message. The default delay is 250 milliseconds.
 #### FIND:
